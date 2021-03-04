@@ -14,3 +14,7 @@ require (
 	github.com/sirupsen/logrus v1.5.0
 	golang.org/x/net v0.0.0-20191204025024-5ee1b9f4859a // indirect
 )
+
+replace (
+	github.com/chaosblade-io/chaosblade-exec-os v0.9.0 => github.com/structslice/chaosblade-exec-os v0.9.1
+)
